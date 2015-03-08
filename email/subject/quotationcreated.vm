@@ -1,2 +1,2 @@
 #disable_html_escaping()
-Kostenvoranschlag $issue.summary ($issue.key): $issue.getCustomFieldValue("customfield_10646") EUR
+Kostenvoranschlag: $issue.summary ($issue.key) = $issue.getCustomFieldValue("customfield_10646") EUR
