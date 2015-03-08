@@ -1,0 +1,2 @@
+#disable_html_escaping()
+Query - ($issue.key) $issue.summary

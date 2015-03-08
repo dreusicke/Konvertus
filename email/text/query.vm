@@ -1,0 +1,21 @@
+#disable_html_escaping()
+#parse("templates/email/includes/issueplugins.vm")
+    #if($comment.getId())[ ${baseurl}/browse/${issue.getKey()}?page=${tabpanel-comment}&focusedCommentId=${comment.getId()}\#comment-${comment.getId()} ] #end
+
+#if($remoteUser.displayName)
+$remoteUser.displayName raised a query on $issue.key :
+#dashes($!remoteUser.displayName)--------------#dashes($issue.getKey())-
+#end
+#if($changelog)
+
+#changes([])
+#end
+#comment()
+#visibilityText()
+
+#parse("templates/email/text/includes/issuesummary.vm")
+#if ($issue.getCustomFieldValue("customfield_10004"))
+$stringUtils.leftPad($issue.getCustomField("customfield_10004").name, $padSize): $issue.getCustomFieldValue("customfield_10004")
+#end
+
+#parse("templates/email/text/includes/footer.vm")

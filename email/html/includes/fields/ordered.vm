@@ -1,0 +1,49 @@
+#disable_html_escaping()
+<tr>
+    <th>Kostenvoranschlag beauftragt:</th>
+    <td>
+        $dateformatter.formatDMYHMS($issue.getCustomFieldValue("customfield_10613"))
+    </td>
+</tr>
+
+<tr>
+    <th>Kostenvoranschlag erhalten:</th>
+    <td>
+        $dateformatter.formatDMYHMS($issue.getCustomFieldValue("customfield_10616"))
+    </td>
+</tr>
+
+<tr>
+    <th>Planm&auml;&szlig;ige Lieferung:</th>
+    <td>
+        $dateformatter.formatDMYHMS($issue.getCustomFieldValue("customfield_10015"))
+    </td>
+</tr>
+
+#*
+#customfield_10645-val, /* # IF */
+#customfield_10630-val, /* Initial 'file is converted' */
+#customfield_10636-val, /* Initial 'file is ready' */
+#customfield_10627-val, /* Participants */
+#customfield_10618-val, /* Production Ordered Date */
+#customfield_10613-val, /* Quotation Request Date */
+#customfield_10616-val, /* Quotation Created Date */
+#customfield_10010-val, /* Planned Production to Management */
+/* #customfield_10015-val,*/ /* Planned Delivery to Client */
+#customfield_10611-val, /* Default Delivery to Client */
+#customfield_10621-val, /* Default Correction Date */
+#customfield_10617-val, /* File Is Converted Date */
+#customfield_10628-val, /* Resolution time */
+#customfield_10701-val, /* Rule to Preparation */
+#customfield_10704-val, /* Rule ordered */
+#customfield_10705-val, /* Rule to Production */
+#customfield_10708-val, /* Rule to QA */
+#customfield_10712-val, /* Rule request prepared */
+#customfield_10703-val, /* Rule KM asked */
+#customfield_10707-val, /* Rule KP asked */
+#customfield_10706-val, /* Rule back to Preparation */
+#customfield_10709-val, /* Rule back to Production */
+#customfield_10711-val, /* Rule rework requested */
+#customfield_10702-val, /* Rule waits for order */
+#customfield_10710-val, /* Rule is Done */
+*#

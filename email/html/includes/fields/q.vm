@@ -1,0 +1,49 @@
+#disable_html_escaping()
+#*
+#if ($issue.getCustomField("customfield_10646") && $issue.getCustomFieldValue("customfield_10646").length() != 0) 
+  Preis: $issue.getCustomFieldValue("customfield_10646") EUR
+#end *#
+
+#*#if ($comment)
+<tr valign="top">
+    <td id="email-fields" style="padding:0 32px 32px 32px;">
+        <table border="0" cellpadding="0" cellspacing="0" style="padding:0;text-align:left;width:100%;" width="100%">
+            <tr valign="top">
+                <td id="email-gutter" style="width:64px;white-space:nowrap;"></td>
+                #parse("templates/email/html/includes/summary-topleft.vm")
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        #parse("templates/email/html/includes/fields/comment.vm")
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+#end*#
+
+<tr>
+    <th>Preis:</th>
+    <td>
+        <strong>$issue.getCustomFieldValue("customfield_10646") EUR</strong>
+    </td>
+</tr>
+
+#*<tr>
+    <th>#text("issue.field.issuetype"):</th>
+    <td class="has-icon">
+        #set ($issueType = $issue.getIssueTypeObject())
+        #renderIcon(${issueType.iconUrlHtml} ${issueType.getNameTranslation($i18n)})
+        $textutils.htmlEncode(${issueType.getNameTranslation($i18n)}, false)
+    </td>
+</tr>
+
+<tr>
+    <th>#text("issue.getCustomField("customfield_10646")"):</th>
+    <td class="has-icon">
+        #set ($issueType = $issue.getIssueTypeObject())
+        #renderIcon(${issueType.iconUrlHtml} ${issueType.getNameTranslation($i18n)})
+        $textutils.htmlEncode(${issueType.getNameTranslation($i18n)}, false)
+    </td>
+</tr>*#
+

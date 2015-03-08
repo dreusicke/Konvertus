@@ -1,0 +1,18 @@
+#disable_html_escaping()
+
+#if($issue)
+	<table width="100%" cellpadding="10" cellspacing="0" border="1">
+            #foreach ($value in $customFieldManager.getCustomFieldObjects($issue))
+              <tr bgcolor="${bgColor}" style="vertical-align:top;">
+                <td width="20%"style="font-weight:bold;">$stringUtils.leftPad($value.getName(), $padSize):</td>
+                <td width="80%" align="left">
+ 
+              #if( $issue.getCustomFieldValue($value) )
+                    $issue.getCustomFieldValue($value)
+              #end
+                </td>
+              </tr>
+            #end
+	</table>
+#end
+
