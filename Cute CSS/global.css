@@ -416,33 +416,29 @@ dd.attachment-date, .attachment-author, .attachment-size {
   color: #208F37;
 }
 
-#description-val.editable-field {
-  margin: 0;
-  background: #F9F6F0;
-  border: 1px solid #EFEDE3;
-  -webkit-box-shadow: inset 1px 1px 0px #DAD9D9;
-  -moz-box-shadow: inset 1px 1px 0px #DAD9D9;
-  box-shadow: inset 1px 1px 0px #DAD9D9;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+/* description, comments and Recent Comment */
+
+#description-val.editable-field, #addcomment textarea,
+.twixi-block .verbose .flooded, .toggle-wrap .verbose .flooded,
+#customfield_10632-val {
+  background: #FFF9EC;
+  border: 1px solid #E8E7E1;
+  -webkit-box-shadow: inset 2px 2px 0px #DAD9D9;
+  -moz-box-shadow: inset 2px 2px 0px #DAD9D9;
+  box-shadow: inset 2px 2px 0px #DAD9D9;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   padding: 10px;
 }
 
+#description-val.editable-field, #addcomment textarea {
+  margin: 0;
+}
 
-/* comments and Recent Comment */
-.twixi-block .verbose .flooded, .toggle-wrap .verbose .flooded,
-#customfield_10632-val
-{
-  background: #F9F6F0;
-  border: 1px solid #EFEDE3;
-  -webkit-box-shadow: inset 1px 1px 0px #DAD9D9;
-  -moz-box-shadow: inset 1px 1px 0px #DAD9D9;
-  box-shadow: inset 1px 1px 0px #DAD9D9;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  padding: 10px;
+.wiki-edit-toolbar {
+  border: none;
+  background: transparent;
 }
 
 .message-container {
