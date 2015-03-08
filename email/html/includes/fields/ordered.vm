@@ -1,24 +1,27 @@
 #disable_html_escaping()
 <tr>
-    <th>Kostenvoranschlag beauftragt:</th>
+    <th>Kostenvoranschlag bestellt:</th>
     <td>
         $dateformatter.formatDMYHMS($issue.getCustomFieldValue("customfield_10613"))
     </td>
 </tr>
 
 <tr>
-    <th>Kostenvoranschlag erhalten:</th>
+    <th>Kostenvoranschlag bereitgestellt:</th>
     <td>
         $dateformatter.formatDMYHMS($issue.getCustomFieldValue("customfield_10616"))
     </td>
 </tr>
 
+#if ($issue.getCustomFieldValue("customfield_10015"))
 <tr>
     <th>Planm&auml;&szlig;ige Lieferung:</th>
     <td>
         $dateformatter.formatDMYHMS($issue.getCustomFieldValue("customfield_10015"))
     </td>
 </tr>
+#end
+
 
 #*
 #customfield_10645-val, /* # IF */

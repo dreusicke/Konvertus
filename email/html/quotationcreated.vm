@@ -2,7 +2,7 @@
 
 
 
-#defaultMailHeader("email.event.activity.updated.issue", $issue.reporter)
+#defaultMailHeader("jira.email.title.issue.updated", $changelogauthor)
 
 #rowWrapperNormalBegin('' 'wrapper-special-margin')
 <table class="keyvalue-table">
