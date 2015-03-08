@@ -1,29 +1,8 @@
 #disable_html_escaping()
 
-#*<table width="100%" cellpadding="10" cellspacing="0" border="1">
-            #foreach ($value in $customFieldManager.getCustomFieldObjects($issue))
-              #if( $velocityCount % 2 == 0 )
-                #set( $bgColor = '#eef8ff' )
-              #else
-                #set( $bgColor = '#eeeeee' )
-              #end
-              <tr bgcolor="${bgColor}" style="vertical-align:top;">
-                <td width="20%"style="font-weight:bold;">$stringUtils.leftPad($value.getName(), $padSize):</td>
-                <td width="80%" align="left">
- 
-              #if( $issue.getCustomFieldValue($value) )
-                    $issue.getCustomFieldValue($value)
-              #end
-                </td>
-              </tr>
-            #end
-</table>
 
-#foreach ($value in $customFieldManager.getCustomFieldObjects($issue))
-$stringUtils.leftPad($value.getName(), $padSize): $!value.getValueFromIssue($issue)
-#end*#
 
-#defaultMailHeader("email.event.activity.created.issue", $issue.reporter)
+#defaultMailHeader("email.event.activity.updated.issue", $issue.reporter)
 
 #rowWrapperNormalBegin('' 'wrapper-special-margin')
 <table class="keyvalue-table">
@@ -50,3 +29,27 @@ $stringUtils.leftPad($value.getName(), $padSize): $!value.getValueFromIssue($iss
 #rowWrapperNormal($commentActionBody)
 
 #parse("templates/email/html/includes/footer.vm")
+
+
+#*<table width="100%" cellpadding="10" cellspacing="0" border="1">
+            #foreach ($value in $customFieldManager.getCustomFieldObjects($issue))
+              #if( $velocityCount % 2 == 0 )
+                #set( $bgColor = '#eef8ff' )
+              #else
+                #set( $bgColor = '#eeeeee' )
+              #end
+              <tr bgcolor="${bgColor}" style="vertical-align:top;">
+                <td width="20%"style="font-weight:bold;">$stringUtils.leftPad($value.getName(), $padSize):</td>
+                <td width="80%" align="left">
+ 
+              #if( $issue.getCustomFieldValue($value) )
+                    $issue.getCustomFieldValue($value)
+              #end
+                </td>
+              </tr>
+            #end
+</table>
+
+#foreach ($value in $customFieldManager.getCustomFieldObjects($issue))
+$stringUtils.leftPad($value.getName(), $padSize): $!value.getValueFromIssue($issue)
+#end*#
