@@ -13,10 +13,14 @@
     #parse("templates/email/html/includes/fields/assignee.vm")
     #parse("templates/email/html/includes/fields/reporter.vm")
     #parse("templates/email/html/includes/fields/attachments.vm")
-    #parse("templates/email/html/includes/fields/ordered.vm")
+    #parse("templates/email/html/includes/fields/quotationcreatedfields.vm")
     #parse("templates/email/html/includes/fields/duedate.vm")
     #parse("templates/email/html/includes/fields/labels.vm")
     #parse("templates/email/html/includes/fields/q.vm")
+    <tr>
+      <th><strong>Konvertierung bestellen</strong>:</th>
+      <td><a href="${baseurl}/browse/${issue.getKey()}">$textutils.htmlEncode($issue.getSummary()) ($issue.getKey())</a></td>
+    </tr>
 </table>
 #rowWrapperNormalEnd()
 
