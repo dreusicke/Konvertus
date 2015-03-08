@@ -9,11 +9,11 @@
                 </table>
             </td>
         </tr>
-
+        #*
         #if ($extraFooterContent)
             #parse("templates/email/html/includes/patterns/extra-footer-content.vm")
         #end
-
+        *#
         ## footer pattern
         <tr>
             <td id="footer-pattern">
