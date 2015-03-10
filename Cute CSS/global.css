@@ -4,7 +4,7 @@
 #jira .view a, 
 #jira .view a:link, 
 #jira .view a:visited {
-	color: #999933;
+  color: #999933;
 }
 
 
@@ -16,7 +16,7 @@
 #jira .view a, 
 #jira .view a:link, 
 #jira .view a:visited {
-	color: #385B7C;
+  color: #385B7C;
 }
 
 
@@ -128,6 +128,12 @@
 
 .aui-button, a.aui-button, .aui-button:visited {
   margin-bottom: 2px;
+}
+
+.aui-message.error {
+  background: #d04437 !important; /* '!important' is important, otherwise it's overwritten by 'form.aui .error' */
+  border-color: #d04437;
+  color: #fff !important;
 }
 
 .issue-body-content .module>.mod-header {
@@ -258,6 +264,7 @@ dd.attachment-date, .attachment-author, .attachment-size {
 #rowForcustomfield_10017, /* type of conversion */
 #rowForcustomfield_10500, /* IF */
 #rowForcustomfield_10646, /* Q */
+#rowForcustomfield_10644, /* scope */
 #rowForcustomfield_10025, /* Client's Publisher's No. */
 #rowForcustomfield_10019, /* Publisher's state */
 #rowForcustomfield_10622, /* # Rework requested */
