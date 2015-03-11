@@ -350,6 +350,7 @@ dd.attachment-date, .attachment-author, .attachment-size {
 #customfield_10615-val, #customfield_10620-val, #customfield_10710-val /* Green box: File Is Ready Date, Done Date, Rule is Done */
 {
   color: #fff;
+  font-size: smaller;
   margin: -2px 0 -2px -5px;
   padding: 2px 7px;
   -webkit-border-radius: 5px;
