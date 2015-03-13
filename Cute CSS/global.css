@@ -381,13 +381,13 @@ dd.attachment-date, .attachment-author, .attachment-size {
 /* #customfield_10710-val, /* Rule is Done */
 
 
-/* Date boxes: margin and padding */
-#customfield_10015-val, #customfield_10401-val /* Blue box: Planned: To Client, Planned Delivery After Correction */
+/* Red box: Planned Delivery After Correction */
+#customfield_10401-val
 {
   padding: 0 7px;
 }
 
-/* Blue box: Planned: To Client, Planned Delivery After Correction */
+/* Red box: Planned To Client, Planned Delivery After Correction */
 #customfield_10015-val, #customfield_10401-val {
   background: #F91E02;
 }
