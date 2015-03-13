@@ -35,6 +35,12 @@
   background: linear-gradient(left, rgba(234,241,253,0) 0%,rgba(206, 226, 251, 1) 100%);
 }*/
 
+/* headers in dashboard gadgets */
+#jira.aui-layout .dashboard #dashboard-content div.gadget.color1 .gadget-hover .dashboard-item-title, 
+#jira.aui-layout .dashboard #dashboard-content div.gadget.color1 .dashboard-item-title {
+  background-color: #235889;
+}
+
 .structureBorder {
   border-top: 1px solid #fff;
 }
