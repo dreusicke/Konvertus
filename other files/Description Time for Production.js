@@ -1,5 +1,4 @@
-5 days before 'Planned To Client' or 'Default To Client'.
-
+Remaining time for production until 'KP to KM'.
 
 <!-- @@Formula: 
 /* Planned To Client */
