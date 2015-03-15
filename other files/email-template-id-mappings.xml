@@ -1,6 +1,6 @@
 <!-- this file should be updated in sync with EventType.java and EventType table -->
 <templatemappings>
-    <templatemapping id="1">
+    <!--<templatemapping id="1">
         <name>Issue Created</name>
         <template>issuecreated.vm</template>
         <templatetype>issueevent</templatetype>
@@ -9,13 +9,13 @@
         <name>Issue Updated</name>
         <template>issueupdated.vm</template>
         <templatetype>issueevent</templatetype>
-    </templatemapping>
+    </templatemapping>-->
     <templatemapping id="3">
         <name>Issue Assigned</name>
         <template>issueassigned.vm</template>
         <templatetype>issueevent</templatetype>
     </templatemapping>
-    <templatemapping id="4">
+    <!--<templatemapping id="4">
         <name>Issue Resolved</name>
         <template>issueresolved.vm</template>
         <templatetype>issueevent</templatetype>
@@ -24,13 +24,13 @@
         <name>Issue Closed</name>
         <template>issueclosed.vm</template>
         <templatetype>issueevent</templatetype>
-    </templatemapping>
+    </templatemapping>-->
     <templatemapping id="6">
         <name>Issue Commented</name>
         <template>issuecommented.vm</template>
         <templatetype>issueevent</templatetype>
     </templatemapping>
-    <templatemapping id="7">
+    <!--<templatemapping id="7">
         <name>Issue Reopened</name>
         <template>issuereopened.vm</template>
         <templatetype>issueevent</templatetype>
@@ -64,13 +64,13 @@
         <name>Generic Event</name>
         <template>issuegenericevent.vm</template>
         <templatetype>issueevent</templatetype>
-    </templatemapping>
+    </templatemapping>-->
     <templatemapping id="14">
         <name>Issue Comment Edited</name>
         <template>issuecommentedited.vm</template>
         <templatetype>issueevent</templatetype>
     </templatemapping>
-    <templatemapping id="15">
+    <!--<templatemapping id="15">
         <name>Issue Worklog Updated</name>
         <template>issueworklogupdated.vm</template>
         <templatetype>issueevent</templatetype>
@@ -84,7 +84,7 @@
         <name>Issue Comment Deleted</name>
         <template>issueupdated.vm</template>
         <templatetype>issueevent</templatetype>
-    </templatemapping>
+    </templatemapping>-->
     <templatemapping id="18">
         <name>Quotation Requested</name>
         <template>quotationrequested.vm</template>
