@@ -280,6 +280,7 @@ dd.attachment-date, .attachment-author, .attachment-size {
 #rowForcustomfield_10626, /* # Comments */
 #rowForcustomfield_10632, /* # Recent comment */
 #rowForcustomfield_10700, /* # realated issues */
+#rowForcustomfield_10905, /* # In-Progress-Time */
 #customfield_10645-val, /* # IF */
 #customfield_10630-val, /* Initial 'file is converted' */
 #customfield_10636-val, /* Initial 'file is ready' */
@@ -321,6 +322,7 @@ dd.attachment-date, .attachment-author, .attachment-size {
 #due-date,
 #updated-date,
 .issue-data-block .action-head, /* comments headers */
+.eachrow, .eachrow .before /* Stateoscope */
 .action-details /* history headers */
 {
   font-size: smaller;
@@ -648,4 +650,40 @@ ul.s-ops {
 
 .activity-new-val {
   color: #158C07;
+}
+
+/* Stateoscope */
+.eachrow {
+  margin: 0 0 1px 0 !important;
+  padding: 0 0 5px 0 !important;
+  border: 1px solid #E4E4E4 !important;
+  font-size: smaller !important;
+}
+
+.eachrow.head {
+  color: #D5D5D5 !important;
+  font-weight: 100 !important;
+  height: 35px !important;
+  font-size: 14px !important;
+  background-color: #3B5F81 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.eachrow .owner {
+  width: 20% !important;
+}
+
+.eachrow .before {
+  width: 17% !important;
+  margin: 10px 0 0 10px !important;
+  font-size: inherit !important;
+}
+
+.eachrow .action {
+  width: 15% !important;
+}
+
+.eachrow .after {
+  width: 17% !important;
 }
