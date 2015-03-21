@@ -282,6 +282,9 @@ dd.attachment-date, .attachment-author, .attachment-size {
 #rowForcustomfield_10700, /* # realated issues */
 #rowForcustomfield_10905, /* # In-Progress-Time */
 #customfield_10645-val, /* # IF */
+#customfield_11005-val, /* # RFIR */
+#customfield_11006-val, /* # CCC */
+#customfield_11100-val, /* # In-Progress Time */
 #customfield_10630-val, /* Initial 'file is converted' */
 #customfield_10636-val, /* Initial 'file is ready' */
 #customfield_10627-val, /* Participants */
@@ -296,6 +299,7 @@ dd.attachment-date, .attachment-author, .attachment-size {
 #customfield_10902-val, /* Correction Ordered */
 #customfield_10903-val, /* Correction Started */
 #customfield_10904-val, /* Correction Done */
+#customfield_10900-val, /* KP to KM */
 #customfield_10628-val, /* Resolution time */
 #customfield_10701-val, /* Rule to Preparation */
 #customfield_10704-val, /* Rule ordered */
@@ -321,6 +325,8 @@ dd.attachment-date, .attachment-author, .attachment-size {
 #create-date,
 #due-date,
 #updated-date,
+.hipchat-mentioned-rooms-section,
+.hipchat-issue-panel .hipchat-issue-panel-button,
 .issue-data-block .action-head, /* comments headers */
 .eachrow, .eachrow .before /* Stateoscope */
 .action-details /* history headers */
@@ -410,6 +416,7 @@ dd.attachment-date, .attachment-author, .attachment-size {
 /* Yellow text */
 #customfield_10618-val, /* Production Ordered Date */
 #customfield_10010-val, /* Planned Production to Management */
+#customfield_10900-val, /* KP to KM */
 #customfield_10902-val, /* Correction Ordered */
 #customfield_10903-val, /* Correction Started */
 #customfield_10904-val, /* Correction Done */
