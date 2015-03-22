@@ -1,5 +1,6 @@
 Client ordered or quick-ordered the conversion.
-<!-- @TransitionId: 551,651 -->
+
+<!-- @TransitionId: 551,651,771 -->
 
 <!-- @@Format:
   if      (issue.get("customfield_10647") != null && issue.get("customfield_10614") == null) {
