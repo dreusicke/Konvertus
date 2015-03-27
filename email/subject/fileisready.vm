@@ -1,0 +1,2 @@
+#disable_html_escaping()
+Datei ist abholbereit: $issue.summary ($issue.getProject().getString("name"))

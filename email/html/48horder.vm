@@ -1,0 +1,62 @@
+#disable_html_escaping()
+
+
+
+#defaultMailHeader("jira.email.title.issue.updated", $changelogauthor)
+
+#rowWrapperNormalBegin('' 'wrapper-special-margin')
+<table class="keyvalue-table">
+    #parse("templates/email/html/includes/fields/project.vm")
+    #parse("templates/email/html/includes/fields/issuetype.vm")
+    <tr>
+        <th>Name des Titels:</th>
+        <td><strong>$issue.getSummary()</strong></td>
+    </tr>
+    #parse("templates/email/html/includes/fields/status.vm")
+    #parse("templates/email/html/includes/fields/assignee.vm")
+    #parse("templates/email/html/includes/fields/reporter.vm")
+    #parse("templates/email/html/includes/fields/attachments.vm")
+    #parse("templates/email/html/includes/fields/quotationcreatedfields.vm")
+    #parse("templates/email/html/includes/fields/duedate.vm")
+    #parse("templates/email/html/includes/fields/labels.vm")
+    #parse("templates/email/html/includes/fields/q.vm")
+    <tr>
+      <th><strong>Konvertierung bestellen</strong>:</th>
+      <td><a href="${baseurl}/browse/${issue.getKey()}">$textutils.htmlEncode($issue.getSummary()) ($issue.getKey())</a></td>
+    </tr>
+</table>
+#rowWrapperNormalEnd()
+
+#if ($issue.description)
+    #set($textParagraph = $issue.htmlDescription)
+    #rowWrapperNormal("#parse('templates/email/html/includes/patterns/text-paragraph.vm')", '', 'issue-description-container')
+#end
+
+#set ($commentActionBody="#parse('templates/email/html/includes/patterns/comment-action.vm')")
+#rowWrapperNormal($commentActionBody)
+
+#parse("templates/email/html/includes/footer.vm")
+
+
+#*<table width="100%" cellpadding="10" cellspacing="0" border="1">
+            #foreach ($value in $customFieldManager.getCustomFieldObjects($issue))
+              #if( $velocityCount % 2 == 0 )
+                #set( $bgColor = '#eef8ff' )
+              #else
+                #set( $bgColor = '#eeeeee' )
+              #end
+              <tr bgcolor="${bgColor}" style="vertical-align:top;">
+                <td width="20%"style="font-weight:bold;">$stringUtils.leftPad($value.getName(), $padSize):</td>
+                <td width="80%" align="left">
+ 
+              #if( $issue.getCustomFieldValue($value) )
+                    $issue.getCustomFieldValue($value)
+              #end
+                </td>
+              </tr>
+            #end
+</table>
+
+#foreach ($value in $customFieldManager.getCustomFieldObjects($issue))
+$stringUtils.leftPad($value.getName(), $padSize): $!value.getValueFromIssue($issue)
+#end*#
