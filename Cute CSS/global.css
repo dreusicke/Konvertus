@@ -4,7 +4,7 @@
 #jira .view a, 
 #jira .view a:link, 
 #jira .view a:visited {
-  color: #999933;
+  color: #999933 !important;
 }
 
 
@@ -16,195 +16,195 @@
 #jira .view a, 
 #jira .view a:link, 
 #jira .view a:visited {
-  color: #385B7C;
+  color: #385B7C !important;
 }
 
 
 /* Structure */
 
 /*#structure .st-focused .tr.s-focused {
-  background-color: #CCE1FC;
-  border: 1px #9BB7D3 solid;
+  background-color: #CCE1FC !important;
+  border: 1px #9BB7D3 solid !important;
 }
 
 #structure .st-focused .tr.s-focused .grad {
-  background: -moz-linear-gradient(left, rgba(234,241,253,0) 0%, rgba(206, 226, 251, 1) 100%);
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(234,241,253,0)), color-stop(100%,rgba(206, 226, 251, 1)));
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00EAF1FD', endColorstr='#EAF1FD',GradientType=1 );
-  background: -ms-linear-gradient(left, rgba(234,241,253,0) 0%,rgba(206, 226, 251, 1) 100%);
-  background: linear-gradient(left, rgba(234,241,253,0) 0%,rgba(206, 226, 251, 1) 100%);
+  background: -moz-linear-gradient(left, rgba(234,241,253,0) 0%, rgba(206, 226, 251, 1) 100%) !important;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(234,241,253,0)), color-stop(100%,rgba(206, 226, 251, 1))) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00EAF1FD', endColorstr='#EAF1FD',GradientType=1 ) !important;
+  background: -ms-linear-gradient(left, rgba(234,241,253,0) 0%,rgba(206, 226, 251, 1) 100%) !important;
+  background: linear-gradient(left, rgba(234,241,253,0) 0%,rgba(206, 226, 251, 1) 100%) !important;
 }*/
 
 /* headers in dashboard gadgets */
 #jira.aui-layout .dashboard #dashboard-content div.gadget.color1 .gadget-hover .dashboard-item-title, 
 #jira.aui-layout .dashboard #dashboard-content div.gadget.color1 .dashboard-item-title {
-  background-color: #235889;
+  background-color: #235889 !important;
 }
 
 .structureBorder {
-  border-top: 1px solid #fff;
+  border-top: 1px solid #fff !important;
 }
 
 #structure .st-focused .tr.s-focused {
-  background: rgb(227,239,236);
-  background: -moz-linear-gradient(top, rgba(227,239,236,1) 0%, rgba(187,231,223,1) 45%, rgba(191,236,228,1) 56%, rgba(197,247,234,1) 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(227,239,236,1)), color-stop(45%,rgba(187,231,223,1)), color-stop(56%,rgba(191,236,228,1)), color-stop(100%,rgba(197,247,234,1)));
-  background: -webkit-linear-gradient(top, rgba(227,239,236,1) 0%,rgba(187,231,223,1) 45%,rgba(191,236,228,1) 56%,rgba(197,247,234,1) 100%);
-  background: -o-linear-gradient(top, rgba(227,239,236,1) 0%,rgba(187,231,223,1) 45%,rgba(191,236,228,1) 56%,rgba(197,247,234,1) 100%);
-  background: -ms-linear-gradient(top, rgba(227,239,236,1) 0%,rgba(187,231,223,1) 45%,rgba(191,236,228,1) 56%,rgba(197,247,234,1) 100%);
-  background: linear-gradient(to bottom, rgba(227,239,236,1) 0%,rgba(187,231,223,1) 45%,rgba(191,236,228,1) 56%,rgba(197,247,234,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3efec', endColorstr='#c5f7ea',GradientType=0 );
-  border-top: 1px #AFF0DD solid;
-  border-bottom: 1px #B0E7D7 solid;
+  background: rgb(227,239,236) !important;
+  background: -moz-linear-gradient(top, rgba(227,239,236,1) 0%, rgba(187,231,223,1) 45%, rgba(191,236,228,1) 56%, rgba(197,247,234,1) 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(227,239,236,1)), color-stop(45%,rgba(187,231,223,1)), color-stop(56%,rgba(191,236,228,1)), color-stop(100%,rgba(197,247,234,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(227,239,236,1) 0%,rgba(187,231,223,1) 45%,rgba(191,236,228,1) 56%,rgba(197,247,234,1) 100%) !important;
+  background: -o-linear-gradient(top, rgba(227,239,236,1) 0%,rgba(187,231,223,1) 45%,rgba(191,236,228,1) 56%,rgba(197,247,234,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(227,239,236,1) 0%,rgba(187,231,223,1) 45%,rgba(191,236,228,1) 56%,rgba(197,247,234,1) 100%) !important;
+  background: linear-gradient(to bottom, rgba(227,239,236,1) 0%,rgba(187,231,223,1) 45%,rgba(191,236,228,1) 56%,rgba(197,247,234,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3efec', endColorstr='#c5f7ea',GradientType=0 ) !important;
+  border-top: 1px #AFF0DD solid !important;
+  border-bottom: 1px #B0E7D7 solid !important;
 }
 
 #structure .st-focused .tr.s-focused .grad {
-  background: -moz-linear-gradient(left, rgba(234,241,253,0) 0%, rgba(206, 226, 251, 1) 100%);
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(234,241,253,0)), color-stop(100%,rgba(192, 234, 227, 1)));
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00EAF1FD', endColorstr='#c5f7ea',GradientType=1 );
-  background: -ms-linear-gradient(left, rgba(234,241,253,0) 0%,rgba(192, 234, 227, 1) 100%);
-  background: linear-gradient(left, rgba(234,241,253,0) 0%,rgba(192, 234, 227, 1) 100%);
+  background: -moz-linear-gradient(left, rgba(234,241,253,0) 0%, rgba(206, 226, 251, 1) 100%) !important;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(234,241,253,0)), color-stop(100%,rgba(192, 234, 227, 1))) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00EAF1FD', endColorstr='#c5f7ea',GradientType=1 ) !important;
+  background: -ms-linear-gradient(left, rgba(234,241,253,0) 0%,rgba(192, 234, 227, 1) 100%) !important;
+  background: linear-gradient(left, rgba(234,241,253,0) 0%,rgba(192, 234, 227, 1) 100%) !important;
 }
 
 #structure .issueDescription, #structure .descriptionSeparator {
-  cursor: default;
+  cursor: default !important;
 }
 
 #structure .st-splitter {
-  background-color: rgba(239, 239, 239, 1);
+  background-color: rgba(239, 239, 239, 1) !important;
 }
 
 
 #structure .st-splitter:hover {
-  background-color: rgba(225, 235, 239, 1);
+  background-color: rgba(225, 235, 239, 1) !important;
 }
 
 
 #structure .sechead {
-  border-bottom: 2px solid #EFEFEF;
+  border-bottom: 2px solid #EFEFEF !important;
 }
 
 #st-issue-details {
-  background-color: white;
-  border-top: 1px solid #fff;
+  background-color: white !important;
+  border-top: 1px solid #fff !important;
 }
 
 #structure .foot {
-  border-top: 1px solid #DFE7E6;
+  border-top: 1px solid #DFE7E6 !important;
 }
 
 /* Hide not needed elements of structure */
 .s-info-link-a {
-  display: none;
+  display: none !important;
 }
 
 /* Michael's attempt to fix the official bug in structure: https://jira.almworks.com/browse/HJ-2134 */
 /* #structure {
-  float: left;
+  float: left !important;
 }
 #st-issue-details {
-  float: right;
+  float: right !important;
 } */
 
 /* Issue Details */
 
 #issue-content {
-  background-color: #EFEFEF;
+  background-color: #EFEFEF !important;
 }
 
 .issue-body-content {
-  padding: 20px 20px;
+  padding: 20px 20px !important;
 }
 
 .issue-body-content .module>.mod-header>h1, .issue-body-content .module>.mod-header>h2,
 .issue-body-content .module>.mod-header>h3, .issue-body-content .module>.mod-header>h4,
 .issue-body-content .module>.mod-header>h5, .issue-body-content .module>.mod-header>h6 {
-  background: none;
+  background: none !important;
 }
 
 .aui-toolbar .toolbar-group .toolbar-trigger, .aui-toolbar .aui-dd-parent a.aui-dd-trigger,
 /* lonely comment button */ .aui-button, a.aui-button, .aui-button:visited {
-  background: #F4FFFF;
-  color: #385B7C;
-  border: 1px solid #eee;
-  -webkit-box-shadow: 1px 1px 2px 0px rgba(202,198,185,1);
-  -moz-box-shadow: 1px 1px 2px 0px rgba(202,198,185,1);
-  box-shadow: 1px 1px 0px 0px rgba(202,198,185,1);
+  background: #F4FFFF !important;
+  color: #385B7C !important;
+  border: 1px solid #eee !important;
+  -webkit-box-shadow: 1px 1px 2px 0px rgba(202,198,185,1) !important;
+  -moz-box-shadow: 1px 1px 2px 0px rgba(202,198,185,1) !important;
+  box-shadow: 1px 1px 0px 0px rgba(202,198,185,1) !important;
 }
 
 .aui-button, a.aui-button, .aui-button:visited {
-  margin-bottom: 2px;
+  margin-bottom: 2px !important;
 }
 
 .aui-message.error {
   background: #d04437 !important; /* '!important' is important, otherwise it's overwritten by 'form.aui .error' */
-  border-color: #d04437;
+  border-color: #d04437 !important;
   color: #fff !important;
 }
 
 .issue-body-content .module>.mod-header {
-  background: none;
+  background: none !important;
 }
 
 .issue-body-content .module>.mod-content {
-  padding-left: 0;
+  padding-left: 0 !important;
 }
 
 /* field labels in detail view */
 .issue-body-content .property-list .item .name, .issue-body-content .item-details dl>dt {
-  font-size: 10px;
+  font-size: 10px !important;
 }
 
 .issue-body-content .item-details dl>dt {
-  padding: 5px 5px 0 0;
+  padding: 5px 5px 0 0 !important;
 }
 
 /* label 'none' */
 #wrap-labels {
-  color: #bbb;
+  color: #bbb !important;
 }
 
 /* priority text */
 #priority-val {
-  color: transparent;
+  color: transparent !important;
 }
 
 /* SLA */
 .aui-lozenge-success, .aui-lozenge-error {
-  background-color: transparent;
-  color: transparent;
-  border: none;
-  background-repeat: no-repeat;
-  padding: 7px 0 0 0;
+  background-color: transparent !important;
+  color: transparent !important;
+  border: none !important;
+  background-repeat: no-repeat !important;
+  padding: 7px 0 0 0 !important;
 }
 
 /* workflow step */
 .aui-lozenge {
-  padding: 1px 1px;
-  text-transform: none;
+  padding: 1px 1px !important;
+  text-transform: none !important;
   font-size: 11px !important;
 }
 
 .aui-lozenge-success {
-  background-image: URL(https://order.konvertus.com/plugins/cute/static/resource/communardo.jira.zenlike.theme_1.1_michael/checkmark.png);
+  background-image: URL(https://order.konvertus.com/plugins/cute/static/resource/communardo.jira.zenlike.theme_1.1_michael/checkmark.png) !important;
 }
 
 .aui-lozenge-error {
-  background-image: URL(https://order.konvertus.com/plugins/cute/static/resource/communardo.jira.zenlike.theme_1.1_michael/attention.png);
+  background-image: URL(https://order.konvertus.com/plugins/cute/static/resource/communardo.jira.zenlike.theme_1.1_michael/attention.png) !important;
 }
 
 .jep-timeToSla-row {
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
   box-shadow: none !important;
-  border-radius: 0;
+  border-radius: 0 !important;
   width: 160px !important;
   padding: 0 !important;
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 .jep-timeToSla-row .slaname {
-  display: none;
+  display: none !important;
 }
 
 .jep-timeToSla-countdown {
@@ -222,32 +222,32 @@
 
 /* Initial 'file is converted', Initial 'file is ready' */
 #customfield_10630-val, #customfield_10636-val {
-  color: #456585;
+  color: #456585 !important;
 }
 
 /* attachments */
 .item-attachments .attachment-content, .attachment-author {
-  padding: 2px 5px 2px 20px;
-  font-size: small;
+  padding: 2px 5px 2px 20px !important;
+  font-size: small !important;
 }
 
 dd.attachment-date, .attachment-author, .attachment-size {
-  font-size: smaller;
-  color: #777;
+  font-size: smaller !important;
+  color: #777 !important;
 }
 
 .attachment-author {
-  display: inherit;
-  padding: 0 0px;
-  color: #ccc;
+  display: inherit !important;
+  padding: 0 0px !important;
+  color: #ccc !important;
 }
 
 .attachment-author:after {
-  content: ",\00A0";
+  content: ",\00A0" !important;
 }
 
 #file_attachments+#attachment_thumbnails {
-  border-top: 1px solid #DBDBDB;
+  border-top: 1px solid #DBDBDB !important;
 }
 
 .blender {
@@ -331,33 +331,33 @@ dd.attachment-date, .attachment-author, .attachment-size {
 .eachrow, .eachrow .before /* Stateoscope */
 .action-details /* history headers */
 {
-  font-size: smaller;
+  font-size: smaller !important;
 }
 
 /* quotation: Not sure, if to display the currency, because it's value doesn't need to be public */
 /* #customfield_10642-val:after {
-  content: " ???";
+  content: " ???" !important;
 } */
 
 /* To Do and 'Admint should delete this issue */
 #customfield_10300-field, #customfield_10200-field {
-  color: red;
-  background: white;
-  border: 1px solid #B04A4A;
-  padding: 0 7px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  color: red !important;
+  background: white !important;
+  border: 1px solid #B04A4A !important;
+  padding: 0 7px !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  border-radius: 5px !important;
 }
 
 /* Grey text: due-date */
 #due-date, #resolution-val {
-  color: #bbb;
+  color: #bbb !important;
 }
 
 /* hide resolved date, because we show 'file is ready' date */
 #resolved-date {
-  display: none;
+  display: none !important;
 }
 
 
@@ -366,13 +366,13 @@ dd.attachment-date, .attachment-author, .attachment-size {
 #customfield_10647-val, #customfield_10614-val, #customfield_10704-val, /* Yellow Box: ordered, quick ordered, Rule ordered */
 #customfield_10615-val, #customfield_10620-val, #customfield_10710-val /* Green box: File Is Ready Date, Done Date, Rule is Done */
 {
-  color: #fff;
-  font-size: smaller;
-  margin: -2px 0 -2px -5px;
-  padding: 2px 7px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  color: #fff !important;
+  font-size: smaller !important;
+  margin: -2px 0 -2px -5px !important;
+  padding: 2px 7px !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  border-radius: 5px !important;
 }
 
 
@@ -395,22 +395,22 @@ dd.attachment-date, .attachment-author, .attachment-size {
 /* Red box: Planned Delivery After Correction */
 #customfield_10401-val
 {
-  padding: 0 7px;
+  padding: 0 7px !important;
 }
 
 /* Red box: Planned To Client, Planned Delivery After Correction */
 #customfield_10015-val, #customfield_10401-val {
-  background: #F91E02;
+  background: #F91E02 !important;
 }
 
 /* Blue text: Create Date, Quotation Request Date, Quotation Created Date, Updated */
 #create-date, #customfield_10613-val, #customfield_10616-val, #updated-date {
-  color: #3C64B6;
+  color: #3C64B6 !important;
 }
 
 /* Yellow Box: Ordered, quick ordered, Rule ordered */
 #customfield_10647-val, #customfield_10614-val, #customfield_10704-val {
-  background: #E89500;
+  background: #E89500 !important;
 }
 
 /* Yellow text */
@@ -432,17 +432,17 @@ dd.attachment-date, .attachment-author, .attachment-size {
 #customfield_10711-val, /* Rule rework requested */
 #customfield_10702-val  /* Rule waits for order */
 {
-  color: #E49300;
+  color: #E49300 !important;
 }
 
 /* Green box: File Is Ready Date, Done Date, Rule is Done */
 #customfield_10615-val, #customfield_10620-val, #customfield_10710-val {
-  background: #208F37;
+  background: #208F37 !important;
 }
 
 /* Green text: Default to Client, Default Correction  */
 #customfield_10611-val, #customfield_10621-val {
-  color: #208F37;
+  color: #208F37 !important;
 }
 
 /* description, comments and Recent Comment */
@@ -450,38 +450,38 @@ dd.attachment-date, .attachment-author, .attachment-size {
 #description-val.editable-field, #addcomment textarea,
 .twixi-block .verbose .flooded, .toggle-wrap .verbose .flooded,
 #customfield_10632-val {
-  background: #FFF9EC;
-  border: 1px solid #E8E7E1;
-  -webkit-box-shadow: inset 2px 2px 0px #DAD9D9;
-  -moz-box-shadow: inset 2px 2px 0px #DAD9D9;
-  box-shadow: inset 2px 2px 0px #DAD9D9;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  padding: 10px;
+  background: #FFF9EC !important;
+  border: 1px solid #E8E7E1 !important;
+  -webkit-box-shadow: inset 2px 2px 0px #DAD9D9 !important;
+  -moz-box-shadow: inset 2px 2px 0px #DAD9D9 !important;
+  box-shadow: inset 2px 2px 0px #DAD9D9 !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  border-radius: 5px !important;
+  padding: 10px !important;
 }
 
 #description-val.editable-field, #addcomment textarea {
-  margin: 0;
+  margin: 0 !important;
 }
 
 .wiki-edit-toolbar {
-  border: none;
-  background: transparent;
+  border: none !important;
+  background: transparent !important;
 }
 
 .message-container {
-  color: #ccc;
-  font-style: italic;
-  font-size: x-small;
+  color: #ccc !important;
+  font-style: italic !important;
+  font-size: x-small !important;
 }
 
 .skinny .split-view #activitymodule #issue-tabs {
-  padding-left: 0;
+  padding-left: 0 !important;
 }
 
 #activitymodule .tabs2 #issue-tabs {
-  padding-right: 0;
+  padding-right: 0 !important;
 }
 
 /*tabs for client, konvertus and activity*/
@@ -493,170 +493,170 @@ dd.attachment-date, .attachment-author, .attachment-size {
 .aui-tabs.aui-tabs-disabled.horizontal-tabs>.tabs-menu>.menu-item>a:hover,
 .aui-tabs.aui-tabs-disabled.horizontal-tabs>.tabs-menu>.menu-item>a:active
 {
-  border: none;
-  background: none;
+  border: none !important;
+  background: none !important;
 }
 
 .tabwrap>.tabs.horizontal>li {
-  margin: 5px 0 0 -1px;
-  background: none;
+  margin: 5px 0 0 -1px !important;
+  background: none !important;
 }
 
 /* active tab */
 .aui-tabs.horizontal-tabs>.tabs-menu>.menu-item.active-tab>a,
 .tabwrap>.tabs.horizontal>li.active>a,
 .tabwrap>.tabs.horizontal>li.active>strong {
-  background: #FFF;
-  -webkit-box-shadow: 1px 1px 1px #ddd;
-  -moz-box-shadow: 1px 1px 1px #ddd;
-  box-shadow: 1px 1px 1px #ddd;
+  background: #FFF !important;
+  -webkit-box-shadow: 1px 1px 1px #ddd !important;
+  -moz-box-shadow: 1px 1px 1px #ddd !important;
+  box-shadow: 1px 1px 1px #ddd !important;
 }
 
 /* active link in tab*/
 #aui-uid-0,
 .tabwrap>.tabs.horizontal>li>strong {
-  -webkit-border-radius: 45%;
-  -moz-border-radius: 45%;
-  border-radius: 45%;
+  -webkit-border-radius: 45% !important;
+  -moz-border-radius: 45% !important;
+  border-radius: 45% !important;
 }
 
 /* client and konvertus tab pane*/
 .aui-tabs.horizontal-tabs>.tabs-menu~.tabs-pane {
-  border-top: none;
-  padding-top: 10px;
+  border-top: none !important;
+  padding-top: 10px !important;
 }
 
 .aui-tabs.horizontal-tabs>.tabs-menu>.active-tab>a,
 .aui-tabs.horizontal-tabs>.tabs-menu>.active-tab>a strong,
 .tabwrap>.tabs.horizontal>li>strong
 {
-  font-weight: normal;
-  color: black;
+  font-weight: normal !important;
+  color: black !important;
 }
 
 .aui-tabs.horizontal-tabs>.tabs-menu>.menu-item:first-child {
-  margin-left: 0;
+  margin-left: 0 !important;
 }
 
 .aui-tabs.horizontal-tabs>.tabs-menu>.menu-item:first-child a {
-  border-left: none;
+  border-left: none !important;
 }
 
 .tabwrap>ul.tabs>li a, .tabwrap>ul.tabs>li a:link, .tabwrap>ul.tabs>li a:visited {
-  background: none;
+  background: none !important;
 }
 
 .tabwrap>.tabs.horizontal {
-  border-bottom: none;
+  border-bottom: none !important;
 }
 
 .issue-drop-zone__text {
-  color: #ccc;
-  font-size: xx-small;
-  font-weight: normal;
+  color: #ccc !important;
+  font-size: xx-small !important;
+  font-weight: normal !important;
 }
 
 .issue-data-block {
-  border-bottom: none;
+  border-bottom: none !important;
 }
 
 /* issue in only detail view */
 
 .issue-header .issue-header-content>.command-bar {
-  background: none;
-  border-top: none;
-  border-bottom: 1px solid #ddd;
-  padding: 10px 0;
+  background: none !important;
+  border-top: none !important;
+  border-bottom: 1px solid #ddd !important;
+  padding: 10px 0 !important;
 }
 
 /* right column */
 #viewissuesidebar {
-  width: 23%;
+  width: 23% !important;
 }
 
 /* attachment thumbnails*/
 #attachment_thumbnails .attachment-content {
-  padding: 0px 5px 0 0;
+  padding: 0px 5px 0 0 !important;
 }
 
 /* structure */
 #structuremodule {
-  border-top: none;
-  padding: 15px 0;
-  background: transparent;
+  border-top: none !important;
+  padding: 15px 0 !important;
+  background: transparent !important;
 }
 
 #structuremodule-content {
-  background: #fff;
+  background: #fff !important;
 }
 
 .expanded #st-select-structure.hideCollapsed {
-  display: inline-block;
-  background: transparent;
+  display: inline-block !important;
+  background: transparent !important;
 }
 
 .issue-body-content .module>.mod-header .ops {
-  background: none;
+  background: none !important;
 }
 
 ul.s-ops {
-  background-color: transparent;
-  margin: 3px 4px 0 0;
+  background-color: transparent !important;
+  margin: 3px 4px 0 0 !important;
 }
 
 .activity-item-description blockquote {
-  background-color: #DAF2EC;
-  border-left: none;
+  background-color: #DAF2EC !important;
+  border-left: none !important;
 }
 
 .issue-data-block.focused {
-  background-color: #BACAD3;
+  background-color: #BACAD3 !important;
 }
 
 /* history */
 .action-details {
-  line-height: 1.7;
+  line-height: 1.7 !important;
 }
 
 .action-body.changehistory {
-  text-align: left;
+  text-align: left !important;
 }
 
 .action-body.changehistory table th {
-  border-right: 1px solid #ccc;
-  font-size: 13px;
-  font-weight: 100;
-  background: #777;
-  color: #fff;
+  border-right: 1px solid #ccc !important;
+  font-size: 13px !important;
+  font-weight: 100 !important;
+  background: #777 !important;
+  color: #fff !important;
 }
 
 .changehistory th, .changehistory td {
-  vertical-align: text-bottom;
-  padding: 0.166em 0.5em 0.166em 5px;
+  vertical-align: text-bottom !important;
+  padding: 0.166em 0.5em 0.166em 5px !important;
 }
 
 .activity-name {
-  color: #fff;
-  background: #999;
-  border-bottom: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-  font-size: 13px;
+  color: #fff !important;
+  background: #999 !important;
+  border-bottom: 1px solid #ddd !important;
+  border-right: 1px solid #ddd !important;
+  font-size: 13px !important;
 }
 
 .activity-old-val, .activity-new-val {
-  min-width: 250px;
-  background: #fff;
-  border-bottom: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-  font-size: 13px;
+  min-width: 250px !important;
+  background: #fff !important;
+  border-bottom: 1px solid #ddd !important;
+  border-right: 1px solid #ddd !important;
+  font-size: 13px !important;
 }
 
 .activity-old-val {
-  color: #C73522;
+  color: #C73522 !important;
 }
 
 .activity-new-val {
-  color: #158C07;
+  color: #158C07 !important;
 }
 
 /* Stateoscope */
