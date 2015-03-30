@@ -12,4 +12,6 @@
 
 ###set($extraFooterContent = "#parse('templates/email/html/includes/set-issue-details-context.vm')")
 
+#parse("templates/email/text/includes/issuesummary.vm")
+
 #parse("templates/email/html/includes/footer.vm")
