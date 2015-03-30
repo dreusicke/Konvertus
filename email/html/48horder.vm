@@ -5,23 +5,23 @@
 #defaultMailHeader("jira.email.title.issue.updated", $changelogauthor)
 
 #rowWrapperNormalBegin('' 'wrapper-special-margin')
-<table class="keyvalue-table">
+<table class="keyvalue-table" style="background-color:#FFDCDC;padding:5px;width=100%;">
     #parse("templates/email/html/includes/fields/project.vm")
     #parse("templates/email/html/includes/fields/issuetype.vm")
     <tr>
-        <th>Name des Titels:</th>
+        <th>Title name:</th>
         <td><strong>$issue.getSummary()</strong></td>
     </tr>
     #parse("templates/email/html/includes/fields/status.vm")
-    #parse("templates/email/html/includes/fields/assignee.vm")
-    #parse("templates/email/html/includes/fields/reporter.vm")
     #parse("templates/email/html/includes/fields/attachments.vm")
+#*    #parse("templates/email/html/includes/fields/assignee.vm")
+    #parse("templates/email/html/includes/fields/reporter.vm")
     #parse("templates/email/html/includes/fields/quotationcreatedfields.vm")
     #parse("templates/email/html/includes/fields/duedate.vm")
     #parse("templates/email/html/includes/fields/labels.vm")
-    #parse("templates/email/html/includes/fields/q.vm")
+    #parse("templates/email/html/includes/fields/q.vm")*#
     <tr>
-      <th><strong>Konvertierung bestellen</strong>:</th>
+      <th><strong>See Title</strong>:</th>
       <td><a href="${baseurl}/browse/${issue.getKey()}">$textutils.htmlEncode($issue.getSummary()) ($issue.getKey())</a></td>
     </tr>
 </table>
