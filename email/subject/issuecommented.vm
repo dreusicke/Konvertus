@@ -1,2 +1,2 @@
 #disable_html_escaping()
-Comment for ($issue.key) $issue.summary
+Comment on '$issue.summary' ($issue.key)
