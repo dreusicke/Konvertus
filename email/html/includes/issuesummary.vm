@@ -1,0 +1,29 @@
+#disable_html_escaping()
+
+#rowWrapperNormalBegin('' 'wrapper-special-margin')
+<table class="keyvalue-table">
+    #parse("templates/email/html/includes/fields/project.vm")
+    #parse("templates/email/html/includes/fields/issuetype.vm")
+    <tr>
+        <th>Name:</th>
+        <td><strong>$issue.getSummary()</strong></td>
+    </tr>
+    #parse("templates/email/html/includes/fields/status.vm")
+    #parse("templates/email/html/includes/fields/assignee.vm")
+    #parse("templates/email/html/includes/fields/reporter.vm")
+    #parse("templates/email/html/includes/fields/attachments.vm")
+    #parse("templates/email/html/includes/fields/duedate.vm")
+    #parse("templates/email/html/includes/fields/labels.vm")
+</table>
+#rowWrapperNormalEnd()
+
+#if ($issue.description)
+    #set($textParagraph = $issue.htmlDescription)
+    #rowWrapperNormal("#parse('templates/email/html/includes/patterns/text-paragraph.vm')", '', 'issue-description-container')
+#end
+
+#set ($commentActionBody="#parse('templates/email/html/includes/patterns/comment-action.vm')")
+#rowWrapperNormal($commentActionBody)
+
+#parse("templates/email/html/includes/footer.vm")
+
