@@ -1,3 +1,0 @@
-#disable_html_escaping()
-
-48-Stunden-Bestellung: $issue.summary ($issue.getProject().getString("name"))
