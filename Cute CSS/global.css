@@ -116,6 +116,32 @@
   padding: 20px 20px !important;
 }
 
+.links-list {
+  background-color: #EF85B9 !important;
+}
+
+.links-list dt {
+  padding-left: 10px;
+}
+
+@media (max-width: 1190px)
+.links-list dt {
+  padding-left: 10px !important;
+}
+
+.links-list dd {
+  border-top: none !important;
+}
+
+@media (max-width: 1190px)
+.links-list dt+dd {
+  border-top: none !important;
+}
+
+.links-list .link-content {
+  padding: 5px 5px 5px 10px !important;
+}
+
 .issue-body-content .module>.mod-header>h1, .issue-body-content .module>.mod-header>h2,
 .issue-body-content .module>.mod-header>h3, .issue-body-content .module>.mod-header>h4,
 .issue-body-content .module>.mod-header>h5, .issue-body-content .module>.mod-header>h6 {
@@ -571,7 +597,7 @@ dd.attachment-date, .attachment-author, .attachment-size {
 
 /* right column */
 #viewissuesidebar {
-  width: 23% !important;
+  width: 30% !important;
 }
 
 /* attachment thumbnails*/
