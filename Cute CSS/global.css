@@ -58,6 +58,19 @@
   border-bottom: 1px #B0E7D7 solid !important;
 }
 
+#issuetable tr.focused, .issue-table tr.focused {
+  background: #e1e7ed !important;
+  background: -moz-linear-gradient(top,  #e1e7ed 0%, #b9d9e5 45%, #bedce8 56%, #c1ddf2 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e1e7ed), color-stop(45%,#b9d9e5), color-stop(56%,#bedce8), color-stop(100%,#c1ddf2)) !important;
+  background: -webkit-linear-gradient(top,  #e1e7ed 0%,#b9d9e5 45%,#bedce8 56%,#c1ddf2 100%) !important;
+  background: -o-linear-gradient(top,  #e1e7ed 0%,#b9d9e5 45%,#bedce8 56%,#c1ddf2 100%) !important;
+  background: -ms-linear-gradient(top,  #e1e7ed 0%,#b9d9e5 45%,#bedce8 56%,#c1ddf2 100%) !important;
+  background: linear-gradient(to bottom,  #e1e7ed 0%,#b9d9e5 45%,#bedce8 56%,#c1ddf2 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1e7ed', endColorstr='#c1ddf2',GradientType=0 ) !important;
+  border-top: 1px #AFF0DD solid !important;
+  border-bottom: 1px #B0E7D7 solid !important;
+}
+
 #structure .st-focused .tr.s-focused .grad {
   background: -moz-linear-gradient(left, rgba(234,241,253,0) 0%, rgba(206, 226, 251, 1) 100%) !important;
   background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(234,241,253,0)), color-stop(100%,rgba(192, 234, 227, 1))) !important;
@@ -341,7 +354,10 @@ dd.attachment-date, .attachment-author, .attachment-size {
 #customfield_10710-val, /* Rule is Done */
 .labels,
 #wrap-labels,
-#priority-val, 
+#priority-val,
+.jira-issue-status-lozenge, /* status labels, FIXME, doesn't work yet */
+.aui-lozenge.aui-lozenge-subtle.jira-issue-status-lozenge-yellow,
+.aui-lozenge.aui-lozenge-subtle.jira-issue-status-lozenge-blue,
 .jep-timeToSla-row .slaname, /* SLA */
 .hasCountdown,
 #resolution-val, /* resolution */
