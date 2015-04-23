@@ -41,6 +41,11 @@
   background-color: #235889 !important;
 }
 
+/* Hide Atlassian marketing links */
+#upm-requests-link, #view_help, #view_credits, #view_about, #jiraclient_download {
+  display: none;
+}
+
 .structureBorder {
   border-top: 1px solid #fff !important;
 }
