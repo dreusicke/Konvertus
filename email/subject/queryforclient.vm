@@ -1,0 +1,2 @@
+#disable_html_escaping()
+Query for Client: ($issue.key) $issue.summary
