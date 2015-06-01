@@ -125,6 +125,11 @@
         <template>productionordered.vm</template>
         <templatetype>issueevent</templatetype>
     </templatemapping>
+    <templatemapping id="26">
+        <name>Query for Client</name>
+        <template>queryforclient.vm</template>
+        <templatetype>issueevent</templatetype>
+    </templatemapping>
     <!--
          This is not mapped to an event type, these are the templates that are used when generating
          the mails sent out for filter subscriptions. The id has changed from 14 to 10000 in JIRA 3.8.
