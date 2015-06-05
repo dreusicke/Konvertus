@@ -1,11 +1,18 @@
 7 days after Order Date.
 
 <!-- @@Formula: 
-/* if 'Ordered' is not Null and 'Planed to Client' is Null and 'Complexity of the Title' is not 'simple' */
-  if      (issue.get("customfield_10647") != null && issue.get("customfield_10015") == null && issue.get("customfield_10005") != 10003) {
-  	return  org.apache.commons.lang.time.DateUtils.addDays(issue.get("customfield_10647"),7);
+/* if 'Planed to Client' is not Null, return Null */
+  if  (issue.get("customfield_10015") != null ) {
+   return  null;
   }
-  else { return null; }
+/* if 'Ordered' is not Null and 'Planed to Client' is Null and 'Complexity of the Title' is 'simple' */
+  else if (issue.get("customfield_10647") != null && issue.get("customfield_10015") == null && "Simple".equals (issue.get("customfield_10005").toString()) ) {
+   return  org.apache.commons.lang.time.DateUtils.addDays(issue.get("customfield_10647"),2);
+  }
+/* if 'Ordered' is not Null and 'Planed to Client' is Null and 'Complexity of the Title' is not 'simple' */
+  else if (issue.get("customfield_10647") != null && issue.get("customfield_10015") == null && !"Simple".equals (issue.get("customfield_10005").toString()) ) {
+   return org.apache.commons.lang.time.DateUtils.addDays(issue.get("customfield_10647"),7);
+  }
 -->
 
-<!-- @@Format: DATE -->
+<!-- @@Format: COMPLETE -->
