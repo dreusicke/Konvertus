@@ -46,6 +46,13 @@
   display: none;
 }
 
+/* Konvertus Logo */
+.aui-header-logo {
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
 .structureBorder {
   border-top: 1px solid #fff !important;
 }
