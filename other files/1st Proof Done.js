@@ -3,14 +3,15 @@ WdG
 
 <!-- @@Formula: 
 
-/* if 'Days for 1st Proof' is not Null, return 'Technical Editing' + 'Days for 1st proof' */
-
-
-
+/* if 'Production Start' is not Null */
+if  (issue.get("customfield_12550") != null ) {
+/* if 'Days for 1st Proof' is empty, add 10 days as default */
     if  (issue.get("customfield_12604") == null )
       return  org.apache.commons.lang.time.DateUtils.addDays(issue.get("customfield_12601"),10);
+/* if 'Days for 1st Proof' contains a value, add these days */
     else 
       return  org.apache.commons.lang.time.DateUtils.addDays(issue.get("customfield_12601"),(int)issue.get("customfield_12604"));
+}
 
 -->
 

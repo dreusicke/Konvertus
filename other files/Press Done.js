@@ -1,16 +1,17 @@
 WdG
-'Corrections Done' date plus the time for '2nd Proof', by default 6 days.
+'Pre-Press Done' date plus the time for 'Press', by default 17 days.
 
 <!-- @@Formula: 
 
-/* if 'Days for 2nd Proof' is not Null, return 'Corrections Done' + 'Days for 2nd proof' */
-
-
-
-    if  (issue.get("customfield_12608") == null )
-      return  org.apache.commons.lang.time.DateUtils.addDays(issue.get("customfield_12613"),10);
+/* if 'Production Start' is not Null */
+if  (issue.get("customfield_12550") != null ) {
+/* if 'Days for Press' is empty, add 17 days as default */
+    if  (issue.get("customfield_12609") == null )
+      return  org.apache.commons.lang.time.DateUtils.addDays(issue.get("customfield_12614"),17);
+/* if 'Days for Press' contains a value, add these days */
     else 
-      return  org.apache.commons.lang.time.DateUtils.addDays(issue.get("customfield_12613"),(int)issue.get("customfield_12608"));
+      return  org.apache.commons.lang.time.DateUtils.addDays(issue.get("customfield_12614"),(int)issue.get("customfield_12609"));
+}
 
 -->
 
