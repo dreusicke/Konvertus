@@ -307,56 +307,106 @@ dd.attachment-date, .attachment-author, .attachment-size {
 
 /* small texts */
 .status-view, 
-#rowForcustomfield_10006, /* author */
-#rowForcustomfield_10014, /* client's order number */
-#rowForcustomfield_10004, /* number of pages */
-#rowForcustomfield_10018, /* number of titles */
+#rowForcustomfield_10006, /* Author */
+#rowForcustomfield_10014, /* Client's Order Number */
+#rowForcustomfield_10004, /* Number of Pages */
+#rowForcustomfield_10018, /* Number of Titles */
+#rowForcustomfield_12002, /* Number of Spell Check Errors */
 #rowForcustomfield_10007, /* isbn print */
 #rowForcustomfield_10011, /* isbn epub */
 #rowForcustomfield_10012, /* isbn mobi */
 #rowForcustomfield_10008, /* issn */
 #rowForcustomfield_10000, /* ebook format */
-#rowForcustomfield_10005, /* complexity */
+#rowForcustomfield_10005, /* Complexity of the Title*/
+#rowForcustomfield_11300, /* Correction Caused by */
 #rowForcustomfield_10016, /* production structure */
+#rowForcustomfield_12523, /* Link to Publisher's Stylesheet */
+#rowForcustomfield_12524, /* Link to Serie's Stylesheet */
 #rowForcustomfield_10017, /* type of conversion */
 #rowForcustomfield_10500, /* IF */
 #rowForcustomfield_10646, /* Q */
 #rowForcustomfield_10644, /* scope */
 #rowForcustomfield_10025, /* Client's Publisher's No. */
 #rowForcustomfield_10019, /* Publisher's state */
-#rowForcustomfield_10622, /* # Rework requested */
+#rowForcustomfield_11003, /* # File is Converted */
+#rowForcustomfield_11000, /* # File is Ready */
+#rowForcustomfield_12535, /* # Production Query */
+#rowForcustomfield_12538, /* # Client Answered Production Query */
+#rowForcustomfield_12536, /* # Query for Client */
+#rowForcustomfield_12534, /* # QA */
+#rowForcustomfield_10622, /* # Rework requested after 'File is Ready'*/
 #rowForcustomfield_10623, /* # Rework requested after invoice */
-#rowForcustomfield_10624, /* # Correction */
+#rowForcustomfield_10624, /* # Correction Ordered from QA */
+#rowForcustomfield_11004, /* # Under Correction */
+#rowForcustomfield_11001, /* # Rework Requested */
+#rowForcustomfield_11002, /* # Changes Ordered after Rework Preparation */
 #rowForcustomfield_10625, /* # Attachments */
 #rowForcustomfield_10626, /* # Comments */
+#rowForcustomfield_11304, /* # Styles */
+#rowForcustomfield_11306, /* # Footnotes */
+#rowForcustomfield_11302, /* # Images for Display */
+#rowForcustomfield_11401, /* # Images Inline */
+#rowForcustomfield_11400, /* # Tables as Images */
+#rowForcustomfield_11305, /* # Tables as Text */
+#rowForcustomfield_11403, /* # Index Terms */
+#rowForcustomfield_11402, /* # References */
 #rowForcustomfield_11303, /* # External links */
 #rowForcustomfield_10632, /* # Recent comment */
 #rowForcustomfield_10700, /* # realated issues */
 #rowForcustomfield_10905, /* # In-Progress-Time */
+#customfield_10600-val, /* # Production Requirements */
 #customfield_10645-val, /* # IF */
 #customfield_11005-val, /* # RFIR */
 #customfield_11006-val, /* # CCC */
+#customfield_11900-val, /* # KCC */
+#customfield_12001-val, /* # VIF */
+#customfield_12102-val, /* # Client's Evaluation */
+#customfield_11404-val, /* # KM's Evaluation */
+#customfield_12103-val, /* # KM's Evaluation Description */
+#customfield_12400-val, /* # KP's Evaluation */
+#customfield_12105-val, /* # KP's Evaluation Description */
 #customfield_11100-val, /* # In-Progress Time */
+#customfield_12509-val, /* Asked for Information */
 #customfield_10630-val, /* Initial 'file is converted' */
 #customfield_10636-val, /* Initial 'file is ready' */
 #customfield_10627-val, /* Participants */
-#customfield_10618-val, /* Production Ordered Date */
+#customfield_12503-val, /* New Quotation */
+#customfield_12500-val, /* Production Ordered */
+#customfield_12506-val, /* Taken to Production */
+#customfield_12507-val, /* Production Rejected */
 #customfield_10613-val, /* Quotation Request Date */
 #customfield_10616-val, /* Quotation Created Date */
 #customfield_11200-val, /* Planned KP to KM */
 #customfield_11700-val, /* Provisional KP to KM */
-#customfield_12107-val, /* Provisional to Client */
+#customfield_12515-val, /* Production Query Raised */
+#customfield_12505-val, /* Query for Client */
+#customfield_12531-val, /* From Query for Client to Preparation*/
+#customfield_12517-val, /* Production Query Answered by Client */
+#customfield_12520-val, /* Production Query Answered by KM */
+#customfield_12518-val, /* Back to Production */
+#customfield_12532-val, /* QA Query Answered by Client */
+#customfield_12516-val, /* Correction Query Raised */
 #customfield_12521-val, /* Correction Query Answered by KM */
+#customfield_12513-val, /* Correction Query Answered by Client */
+#customfield_12519-val, /* Back to Correction */
 #customfield_12526-val, /* KM Sent Client's Correction Answer to KP */
-/* #customfield_10015-val,*/ /* Planned Delivery to Client */
 #customfield_10611-val, /* Default to Client */
 #customfield_10621-val, /* Default Correction */
-#customfield_10617-val, /* File Is Converted Date */
+#customfield_10617-val, /* File Is Converted */
+#customfield_12511-val, /* Changes Ordered */
 #customfield_10902-val, /* Correction Ordered */
-#customfield_10903-val, /* Correction Started */
-#customfield_10904-val, /* Correction Done */
+#customfield_12514-val, /* Taken to Correction */
+#customfield_10904-val, /* From Correction to QA */
 #customfield_10900-val, /* KP to KM */
+#customfield_12528-val, /* Rework Requested After Download */
+#customfield_12533-val, /* Rework Query Answered by Client */
+#customfield_12512-val, /* Rework Done */
+#customfield_12504-val, /* Put On Hold */
+#customfield_12529-val, /* From On Hold to Preparation */
+#customfield_12530-val, /* From On Hold to QA */
 #customfield_10628-val, /* Resolution time */
+#customfield_10644-val, /* Scope */
+#customfield_10404-val, /* Show Production Success by Screenshot */
 #customfield_10701-val, /* Rule to Preparation */
 #customfield_10704-val, /* Rule ordered */
 #customfield_10705-val, /* Rule to Production */
@@ -409,11 +459,6 @@ dd.attachment-date, .attachment-author, .attachment-size {
   border-radius: 5px !important;
 }
 
-/* Grey text: due-date */
-#due-date, #resolution-val {
-  color: #bbb !important;
-}
-
 /* hide resolved date, because we show 'file is ready' */
 #resolved-date {
   display: none !important;
@@ -423,18 +468,25 @@ dd.attachment-date, .attachment-author, .attachment-size {
 /* White text color for date boxes */
 /* For red box */
 #customfield_10015-val, /* Planned To Client */
-#customfield_10401-val, /* Planned After Correction */
+#customfield_10401-val, /* KP to KM After Correction */
 #customfield_11200-val, /* Planned KP to KM */
 #customfield_11700-val, /* Provisional KP to KM */
 #customfield_12107-val, /* Provisional to Client */
+#customfield_12108-val, /* SLA Date */
 /* For yellow Box */
-#customfield_10647-val, /* ordered */
-#customfield_10614-val, /* quick ordered */
-#customfield_10704-val, /* Rule ordered */
+#customfield_10647-val, /* Ordered */
+#customfield_12527-val, /* Simple Title Ordered */
+#customfield_10614-val, /* Directly Ordered */
+#customfield_12501-val, /* Sample Ordered */
+#customfield_12505-val, /* Query for Client */
+#customfield_10704-val, /* Rule Ordered */
 /* For green box */
 #customfield_10615-val, /* File Is Ready */
+#customfield_12508-val, /* Downloaded */
 #customfield_10620-val, /* Done */
 #customfield_10710-val /* Rule is Done */
+/* For black box */
+#customfield_12502-val /* Cancelled */
 {
   color: #fff !important;
   font-size: smaller !important;
@@ -464,7 +516,8 @@ dd.attachment-date, .attachment-author, .attachment-size {
 
 /* Red box */
 #customfield_10015-val, /* Planned To Client */
-#customfield_10401-val, /* Planned Delivery After Correction */
+#customfield_12108-val, /* SLA Date */
+#customfield_10401-val, /* KP to KM After Correction */
 #customfield_11200-val, /* Planned KP to KM */
 #customfield_11700-val, /* Provisional KP to KM */
 #customfield_12107-val  /* Provisional to Client */
@@ -473,7 +526,7 @@ dd.attachment-date, .attachment-author, .attachment-size {
 }
 
 /* Red box with padding*/
-#customfield_10401-val /* Planned Delivery After Correction */
+#customfield_10401-val /* KP to KM After Correction */
 {
   padding: 0 7px !important;
 }
@@ -485,30 +538,65 @@ dd.attachment-date, .attachment-author, .attachment-size {
   color: #F91E02 !important;
 }
 
-/* Blue text */
-#create-date, /* Create Date */
+/* Grey text */
+#due-date, 
+#resolution-val,
+#customfield_12300-val, /* Expected Order Week */
+#create-date, /* Created */
 #updated-date, /* Updated */
-#customfield_10613-val, /* Quotation Request Date */
-#customfield_10616-val /* Quotation Created Date */
+#customfield_10613-val, /* Quotation Request */
+#customfield_10616-val, /* Quotation Created */
+#customfield_12503-val /* New Quotation */
 {
-  color: #3C64B6 !important;
+  color: #9F9F9F !important;
 }
 
-/* Yellow Box: Ordered, quick ordered, Rule ordered */
-#customfield_10647-val, #customfield_10614-val, #customfield_10704-val {
+/* Yellow border box */
+#customfield_12300-val /* Expected Order Week */
+{
+  border: 1px solid #E69B12;
+}
+
+/* Yellow Box  */
+#customfield_10647-val, /* Ordered */
+#customfield_12527-val, /* Simple Title Ordered */
+#customfield_10614-val, /* Directly ordered */
+#customfield_12501-val, /* Sample Ordered */
+#customfield_12505-val, /* Query for Client */
+#customfield_10704-val /* Rule ordered */
+{
   background: #E89500 !important;
 }
 
 /* Yellow text */
-#customfield_10618-val, /* Production Ordered Date */
+#customfield_12509-val, /* Asked for Information */
+#customfield_12500-val, /* Production Ordered */
+#customfield_12506-val, /* Taken to Production */
+#customfield_12507-val, /* Production Rejected */
 #customfield_10010-val, /* Planned Production to Management */
 #customfield_10900-val, /* KP to KM */
+#customfield_12515-val, /* Production Query Raised */
+#customfield_12517-val, /* Production Query Answered by Client */
+#customfield_12520-val, /* Production Query Answered by KM */
+#customfield_12518-val, /* Back to Production */
+#customfield_12511-val, /* Changes Ordered */
+#customfield_12516-val, /* Correction Query Raised */
+#customfield_12531-val, /* From Query for Client to Preparation*/
+#customfield_12532-val, /* QA Query Answered by Client */
+#customfield_12528-val, /* Rework Requested After Download*/
+#customfield_12533-val, /* Rework Query Answered by Client*/
+#customfield_12512-val, /* Rework Done*/
 #customfield_10902-val, /* Correction Ordered */
-#customfield_10903-val, /* Correction Started */
+#customfield_12514-val, /* Taken to Correction */
 #customfield_12526-val, /* KM Sent Client's Correction Answer to KP */
+#customfield_12513-val, /* Correction Query Answered by Client */
 #customfield_12521-val, /* Correction Query Answered by KM */
-#customfield_10904-val, /* Correction Done */
-#customfield_10617-val, /* File Is Converted Date */
+#customfield_12519-val, /* Back to Correction */
+#customfield_10904-val, /* From Correction to QA */
+#customfield_10617-val, /* File Is Converted */
+#customfield_12504-val, /* Put On Hold */
+#customfield_12529-val, /* From On Hold to Preparation */
+#customfield_12530-val, /* From On Hold to QA */
 #customfield_10701-val, /* Rule to Preparation */
 #customfield_10705-val, /* Rule to Production */
 #customfield_10708-val, /* Rule to QA */
@@ -524,7 +612,8 @@ dd.attachment-date, .attachment-author, .attachment-size {
 }
 
 /* Green box */
-#customfield_10615-val, /* File Is Ready Date */
+#customfield_10615-val, /* File Is Ready */
+#customfield_12508-val, /* Downloaded */
 #customfield_10620-val, /* Done */
 #customfield_10710-val /* Rule is Done*/
 {
@@ -536,11 +625,21 @@ dd.attachment-date, .attachment-author, .attachment-size {
   color: #208F37 !important;
 }
 
+/* Black box */
+#customfield_12502-val /* Cancelled */
+{
+  background: #000 !important;
+}
+
 /* description, comments and Recent Comment */
 
 #description-val.editable-field, #addcomment textarea,
 .twixi-block .verbose .flooded, .toggle-wrap .verbose .flooded,
-#customfield_10632-val {
+#customfield_10632-val, /* Recent Comment */
+#customfield_12103-val, /* # KM's Evaluation Description */
+#customfield_12105-val, /* # KP's Evaluation Description */
+#customfield_11301-val /* Evalation Summary */
+ {
   background: #FFF9EC !important;
   border: 1px solid #E8E7E1 !important;
   -webkit-box-shadow: inset 2px 2px 0px #DAD9D9 !important;
@@ -550,6 +649,12 @@ dd.attachment-date, .attachment-author, .attachment-size {
   -moz-border-radius: 5px !important;
   border-radius: 5px !important;
   padding: 10px !important;
+}
+
+/* Participants */
+#customfield_10627-val
+{
+  line-height: 100% !important;
 }
 
 #description-val.editable-field, #addcomment textarea {
