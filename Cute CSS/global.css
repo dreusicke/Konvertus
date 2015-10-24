@@ -329,6 +329,7 @@ dd.attachment-date, .attachment-author, .attachment-size {
 #rowForcustomfield_10624, /* # Correction */
 #rowForcustomfield_10625, /* # Attachments */
 #rowForcustomfield_10626, /* # Comments */
+#rowForcustomfield_11303, /* # External links */
 #rowForcustomfield_10632, /* # Recent comment */
 #rowForcustomfield_10700, /* # realated issues */
 #rowForcustomfield_10905, /* # In-Progress-Time */
@@ -345,9 +346,11 @@ dd.attachment-date, .attachment-author, .attachment-size {
 #customfield_11200-val, /* Planned KP to KM */
 #customfield_11700-val, /* Provisional KP to KM */
 #customfield_12107-val, /* Provisional to Client */
+#customfield_12521-val, /* Correction Query Answered by KM */
+#customfield_12526-val, /* KM Sent Client's Correction Answer to KP */
 /* #customfield_10015-val,*/ /* Planned Delivery to Client */
-#customfield_10611-val, /* Default Delivery to Client */
-#customfield_10621-val, /* Default Correction Date */
+#customfield_10611-val, /* Default to Client */
+#customfield_10621-val, /* Default Correction */
 #customfield_10617-val, /* File Is Converted Date */
 #customfield_10902-val, /* Correction Ordered */
 #customfield_10903-val, /* Correction Started */
@@ -411,16 +414,27 @@ dd.attachment-date, .attachment-author, .attachment-size {
   color: #bbb !important;
 }
 
-/* hide resolved date, because we show 'file is ready' date */
+/* hide resolved date, because we show 'file is ready' */
 #resolved-date {
   display: none !important;
 }
 
 
 /* White text color for date boxes */
-#customfield_10015-val, #customfield_10401-val, #customfield_11200-val, #customfield_11700-val, #customfield_12107-val, /* Red box: Planned To Client, Planned Delivery After Correction, Planned KP to KM,  Provisional KP to KM, Provisional to Client */
-#customfield_10647-val, #customfield_10614-val, #customfield_10704-val, /* Yellow Box: ordered, quick ordered, Rule ordered */
-#customfield_10615-val, #customfield_10620-val, #customfield_10710-val /* Green box: File Is Ready Date, Done Date, Rule is Done */
+/* For red box */
+#customfield_10015-val, /* Planned To Client */
+#customfield_10401-val, /* Planned After Correction */
+#customfield_11200-val, /* Planned KP to KM */
+#customfield_11700-val, /* Provisional KP to KM */
+#customfield_12107-val, /* Provisional to Client */
+/* For yellow Box */
+#customfield_10647-val, /* ordered */
+#customfield_10614-val, /* quick ordered */
+#customfield_10704-val, /* Rule ordered */
+/* For green box */
+#customfield_10615-val, /* File Is Ready */
+#customfield_10620-val, /* Done */
+#customfield_10710-val /* Rule is Done */
 {
   color: #fff !important;
   font-size: smaller !important;
@@ -448,19 +462,35 @@ dd.attachment-date, .attachment-author, .attachment-size {
 /* #customfield_10710-val, /* Rule is Done */
 
 
-/* Red box: Planned Delivery After Correction */
-#customfield_10401-val
+/* Red box */
+#customfield_10015-val, /* Planned To Client */
+#customfield_10401-val, /* Planned Delivery After Correction */
+#customfield_11200-val, /* Planned KP to KM */
+#customfield_11700-val, /* Provisional KP to KM */
+#customfield_12107-val  /* Provisional to Client */
+{
+  background: #F91E02 !important;
+}
+
+/* Red box with padding*/
+#customfield_10401-val /* Planned Delivery After Correction */
 {
   padding: 0 7px !important;
 }
 
-/* Red box: Planned To Client, Planned Delivery After Correction, Planned KP to KM,  Provisional KP to KM, Provisional to Client */
-#customfield_10015-val, #customfield_10401-val, #customfield_11200-val, #customfield_11700-val, #customfield_12107-val {
-  background: #F91E02 !important;
+/* Red text */
+#customfield_10611-val, /* Default to Client */
+#customfield_10621-val /* Default Correction */
+{
+  color: #F91E02 !important;
 }
 
-/* Blue text: Create Date, Quotation Request Date, Quotation Created Date, Updated */
-#create-date, #customfield_10613-val, #customfield_10616-val, #updated-date {
+/* Blue text */
+#create-date, /* Create Date */
+#updated-date, /* Updated */
+#customfield_10613-val, /* Quotation Request Date */
+#customfield_10616-val /* Quotation Created Date */
+{
   color: #3C64B6 !important;
 }
 
@@ -475,6 +505,8 @@ dd.attachment-date, .attachment-author, .attachment-size {
 #customfield_10900-val, /* KP to KM */
 #customfield_10902-val, /* Correction Ordered */
 #customfield_10903-val, /* Correction Started */
+#customfield_12526-val, /* KM Sent Client's Correction Answer to KP */
+#customfield_12521-val, /* Correction Query Answered by KM */
 #customfield_10904-val, /* Correction Done */
 #customfield_10617-val, /* File Is Converted Date */
 #customfield_10701-val, /* Rule to Preparation */
@@ -491,13 +523,16 @@ dd.attachment-date, .attachment-author, .attachment-size {
   color: #E49300 !important;
 }
 
-/* Green box: File Is Ready Date, Done Date, Rule is Done */
-#customfield_10615-val, #customfield_10620-val, #customfield_10710-val {
+/* Green box */
+#customfield_10615-val, /* File Is Ready Date */
+#customfield_10620-val, /* Done */
+#customfield_10710-val /* Rule is Done*/
+{
   background: #208F37 !important;
 }
 
-/* Green text: Default to Client, Default Correction  */
-#customfield_10611-val, #customfield_10621-val {
+/* Green text  */
+{
   color: #208F37 !important;
 }
 
