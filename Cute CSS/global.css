@@ -392,7 +392,7 @@ dd.attachment-date, .attachment-author, .attachment-size {
 #customfield_12526-val, /* KM Sent Client's Correction Answer to KP */
 #customfield_10611-val, /* Default to Client */
 #customfield_10621-val, /* Default Correction */
-#customfield_10617-val, /* File Is Converted */
+#customfield_12803-val, /* File Is Converted */
 #customfield_12511-val, /* Changes Ordered */
 #customfield_10902-val, /* Correction Ordered */
 #customfield_12514-val, /* Taken to Correction */
@@ -481,7 +481,7 @@ dd.attachment-date, .attachment-author, .attachment-size {
 #customfield_12505-val, /* Query for Client */
 #customfield_10704-val, /* Rule Ordered */
 /* For green box */
-#customfield_10615-val, /* File Is Ready */
+#customfield_12802-val, /* File Is Ready */
 #customfield_12508-val, /* Downloaded */
 #customfield_10620-val, /* Done */
 #customfield_10710-val, /* Rule is Done */
@@ -593,7 +593,7 @@ dd.attachment-date, .attachment-author, .attachment-size {
 #customfield_12521-val, /* Correction Query Answered by KM */
 #customfield_12519-val, /* Back to Correction */
 #customfield_10904-val, /* From Correction to QA */
-#customfield_10617-val, /* File Is Converted */
+#customfield_12803-val, /* File Is Converted */
 #customfield_12504-val, /* Put On Hold */
 #customfield_12529-val, /* From On Hold to Preparation */
 #customfield_12530-val, /* From On Hold to QA */
@@ -612,7 +612,7 @@ dd.attachment-date, .attachment-author, .attachment-size {
 }
 
 /* Green box */
-#customfield_10615-val, /* File Is Ready */
+#customfield_12802-val, /* File Is Ready */
 #customfield_12508-val, /* Downloaded */
 #customfield_10620-val, /* Done */
 #customfield_10710-val /* Rule is Done*/
