@@ -1,4 +1,5 @@
-7 days after Order Date.
+2 or 7 days after Ordered.
+
 <!-- @@Formula: 
 /* if 'Planed to Client' is not Null, return Null */
 if (issue.get("customfield_10015") != null ) {
