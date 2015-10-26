@@ -437,7 +437,7 @@ dd.attachment-date, .attachment-author, .attachment-size {
 .hipchat-mentioned-rooms-section,
 .hipchat-issue-panel .hipchat-issue-panel-button,
 .issue-data-block .action-head, /* comments headers */
-.eachrow, .eachrow .before /* Stateoscope */
+.eachrow, .eachrow .before, /* Stateoscope */
 .action-details /* history headers */
 {
   font-size: smaller !important;
@@ -484,7 +484,7 @@ dd.attachment-date, .attachment-author, .attachment-size {
 #customfield_10615-val, /* File Is Ready */
 #customfield_12508-val, /* Downloaded */
 #customfield_10620-val, /* Done */
-#customfield_10710-val /* Rule is Done */
+#customfield_10710-val, /* Rule is Done */
 /* For black box */
 #customfield_12502-val /* Cancelled */
 {
