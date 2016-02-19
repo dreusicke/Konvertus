@@ -19,6 +19,9 @@
   color: #385B7C !important;
 }
 
+#jira .aui-dropdown2.aui-style-default .active {
+  color: #fff !important;
+}
 
 /* Structure */
 
