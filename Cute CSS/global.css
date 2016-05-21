@@ -308,6 +308,23 @@ dd.attachment-date, .attachment-author, .attachment-size {
     background: none !important; /* background for trash icon */
 }
 
+/* BoD QA Error Types */
+#rowForcustomfield_13033, /* Images */
+#rowForcustomfield_13046, /* Impressum */
+#rowForcustomfield_13049, /* TOC */
+#rowForcustomfield_13054, /* Complex Elements */
+#rowForcustomfield_13057, /* Links / Index */
+#rowForcustomfield_13065, /* Lists */
+#rowForcustomfield_13068, /* Metadata */
+#rowForcustomfield_13072, /* Tables */
+#rowForcustomfield_13078, /* Text */
+#rowForcustomfield_13087 /* Unwanted Elements */
+ 
+{
+  border-top: #cdd5dc 1px solid;
+  background: #e3e3e3;
+}
+
 /* small texts */
 .status-view, 
 #rowForcustomfield_10006, /* Author */
