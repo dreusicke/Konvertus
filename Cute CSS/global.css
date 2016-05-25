@@ -57,17 +57,17 @@
 }
 
 /* Workflow Buttons */
-#action_id_151 /* File is Ready */
+#action_id_531 /* File is Ready, green */
 {
 background-color: #b7ffb7 !important;
 }
 
-#action_id_151 /* Order Correction */
+#action_id_151 /* Order Correction, orange */
 {
 background-color: #ffdba2 !important;
 }
 
-#action_id_1301 /* Query to 2nd Level */
+#action_id_1301 /* Query to 2nd Level, red */
 {
 background-color: #fdbbc0 !important;
 }
