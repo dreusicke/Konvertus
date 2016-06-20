@@ -341,10 +341,14 @@ dd.attachment-date, .attachment-author, .attachment-size {
 #rowForcustomfield_13072, /* Tables */
 #rowForcustomfield_13078, /* Text */
 #rowForcustomfield_13087 /* Unwanted Elements */
- 
-{
-  border-top: #cdd5dc 1px solid;
-  background: #e3e3e3;
+ {
+  background: #ffcbcb;
+  border-left: #f58080 1px solid;
+  border-top: #fbb7b7 1px solid;
+  border-bottom: #fff 1px solid;
+  border-right: #fff 1px solid;
+  margin-left: -2px;
+  padding-left: 2px;  
 }
 
 /* small texts */
