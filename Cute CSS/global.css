@@ -72,8 +72,8 @@
   background-color: #fdbbc0 !important;
 }
 
-/* Hide Agil (!!!), Labels, Share, Export, Worklog Tab Panel, Footer Comment Button */
-#greenhopper_menu, #greenhopper-agile-issue-web-panel_heading, #wrap-labels, #jira-share-trigger, #viewissue-export, #worklog-tabpanel, #footer-comment-button
+/* Hide Agil (!!!), Labels, Share, Export, Worklog Tab Panel */
+#greenhopper_menu, #greenhopper-agile-issue-web-panel_heading, #wrap-labels, #jira-share-trigger, #viewissue-export, #worklog-tabpanel
 {
   display: none;
 }
