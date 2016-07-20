@@ -57,19 +57,34 @@
 }
 
 /* Workflow Buttons */
-#action_id_531 /* File is Ready, green */
-{
-  background-color: #b7ffb7 !important;
-}
-
 #action_id_151 /* Order Correction, orange */
 {
-  background-color: #ffdba2 !important;
+  background-color: #fbb871 !important;
 }
 
-#action_id_1301 /* Query to 2nd Level, red */
+#action_id_1301, #action_id_831 /* Query to 2nd Level, Query for Client, red */
 {
-  background-color: #fdbbc0 !important;
+  background-color: #ff6666 !important;
+}
+
+#action_id_1411 /* Ready for Review, blue */
+{
+  background-color: #a1eefb !important;
+}
+
+#action_id_1401 /* Ready for Distribution, green */
+{
+  background-color: #bfff09 !important;
+}
+
+#action_id_531 /* File is Ready, green */
+{
+  background-color: #95f976 !important;
+}
+
+#action_id_741 /* Put On Hold, green */
+{
+  background-color: #eff783 !important;
 }
 
 /* Hide Agil (!!!), Labels, Share, Export, Worklog Tab Panel */
