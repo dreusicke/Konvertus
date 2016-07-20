@@ -56,6 +56,11 @@
     left: 10px;
 }
 
+/* Order of main Navigation Buttons*/
+#opsbar-comment-issue_container, #opsbar-opsbar-operations {
+  float: right;
+}
+
 /* Workflow Buttons */
 #action_id_151 /* Order Correction, orange */
 {
