@@ -49,11 +49,12 @@
   display: none;
 }
 
-/* Konvertus Logo */
+/* pubPort Logo */
 .aui-header-logo {
     position: absolute;
-    top: 0;
+    top: -5px;
     left: 10px;
+    visibility: hidden;
 }
 
 /* Order of main Navigation Buttons*/
