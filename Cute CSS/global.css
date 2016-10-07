@@ -93,8 +93,8 @@
   background-color: #eff783 !important;
 }
 
-/* Hide Agil (!!!), Labels, Share, Export, Worklog Tab Panel */
-#greenhopper_menu, #greenhopper-agile-issue-web-panel_heading, #wrap-labels, #jira-share-trigger, #viewissue-export, #worklog-tabpanel
+/* Labels, Share, Export, Worklog Tab Panel */
+#wrap-labels, #jira-share-trigger, #viewissue-export, #worklog-tabpanel
 {
   display: none;
 }
