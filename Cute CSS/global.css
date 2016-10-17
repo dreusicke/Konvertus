@@ -62,12 +62,12 @@
 }
 
 /* Workflow Buttons */
-#action_id_151, #action_id_931, #action_id_861 /* Order Correction, Order Rework, Request Rework, orange */
+#action_id_151, #action_id_931, #action_id_861 ,#action_id_661 ,#action_id_791 /* Order Correction, Order Rework, Request Rework, Order Changes, Order Changes orange */
 {
   background-color: #fbb871 !important;
 }
 
-#action_id_1301, #action_id_831 /* Query to 2nd Level, Query for Client, red */
+#action_id_1301, #action_id_831, #action_id_901 /* Query to 2nd Level, Query for Client, Query for Client, red */
 {
   background-color: #ff6666 !important;
 }
@@ -82,7 +82,7 @@
   background-color: #bfff09 !important;
 }
 
-#action_id_531, #action_id_851, #action_id_11 /* File is Ready, Done, Close, green */
+#action_id_531, #action_id_851, #action_id_11 , #action_id_671 /* File is Ready, Done, Close, Rework Done, green */
 {
   background-color: #95f976 !important;
 }
