@@ -19,6 +19,10 @@
   color: #385B7C !important;
 }
 
+ #jira a[role="button"]{
+  color: #fff !important;
+    }
+
 #jira .aui-dropdown2.aui-style-default .active {
   color: #fff !important;
 }
