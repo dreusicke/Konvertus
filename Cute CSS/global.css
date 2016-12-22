@@ -19,12 +19,16 @@
   color: #385B7C !important;
 }
 
- #jira a[role="button"]{
-  color: #fff !important;
-    }
-
 #jira .aui-dropdown2.aui-style-default .active {
   color: #fff !important;
+}
+
+.ghx-controls-filters dd a.ghx-active, .ghx-controls-filters dd:hover {
+  background: #fd9a59;
+}
+
+.ghx-controls-filters dd a.ghx-active:hover {
+  background: #fff;
 }
 
 /* Structure */
