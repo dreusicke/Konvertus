@@ -1,0 +1,201 @@
+/* Insert your style definitions here */
+
+/* Hide Atlassian marketing links */
+#upm-requests-link, #view_help, #view_credits, #view_about, #jiraclient_download {
+  display: none;
+}
+
+/* Hide: create button, HipChat panel in issue view */
+#create-menu, #hipchat-viewissue-panel {
+  display: none;
+}
+
+/* workflow transitions */
+
+/* Green: Take to Correction, Ready for Client, Approve, Production Requirements Checked, Take in Production */
+#action_id_121, #action_id_141, #action_id_311, #action_id_341, #action_id_351 {
+  background: #37ff004d;
+}
+
+/* Red: Order Correction, Correction Needed, Reject Production, Cancel Title */
+#action_id_111, #action_id_261, #action_id_21, #action_id_401 {
+  background: #ff00003b;
+}
+
+/* Yellow: Query for Client */
+#action_id_81, #action_id_181, #action_id_211, #action_id_291 {
+  background: #ffd90085;
+}
+
+/* Yellow-Green: Request Quotation */
+#action_id_361 {
+  background: #dcff81fc;
+}
+
+/* Blue of pubPort logo: Order Production */
+#action_id_11, #action_id_321, #action_id_411 {
+  background: #92e0ffe3;
+}
+
+/* Grey-Brown: Order Production */
+#action_id_271 {
+  background: #c3ac93;
+}
+
+/* Turquoise: Create Template ToDo */
+#action_id_331 {
+  background: #00f7ff4a;
+}
+
+
+/* Issue details */
+
+/* Issue details background, Smart Attachment plugin buttons, Structure plugin buttons */
+#issue-content, #attach-cat-help,
+.issue-body-content .module>.mod-header .ops,
+.attach-cat-title,
+.attach-cat-badge-wrapper,
+.attach-cat-action {
+  background-color: #EFEFEF !important;
+}
+
+.issue-body-content {
+  padding: 20px 20px !important;
+}
+
+.links-list {
+  background-color: #ef85b945 !important;
+  border-radius: 5px !important;
+}
+
+.links-list dt {
+  padding-left: 10px;
+}
+
+@media (max-width: 1190px)
+.links-list dt {
+  padding-left: 10px !important;
+}
+
+.links-list dd {
+  border-top: none !important;
+}
+
+@media (max-width: 1190px)
+.links-list dt+dd {
+  border-top: none !important;
+}
+
+.links-list .link-content {
+  padding: 5px 5px 5px 10px !important;
+}
+
+.issue-body-content .module>.mod-header>h1, .issue-body-content .module>.mod-header>h2,
+.issue-body-content .module>.mod-header>h3, .issue-body-content .module>.mod-header>h4,
+.issue-body-content .module>.mod-header>h5, .issue-body-content .module>.mod-header>h6 {
+  background: none !important;
+}
+
+/* field names in detail view */
+.issue-body-content .property-list .item .name, .issue-body-content .item-details dl>dt {
+  font-size: 12px !important;
+}
+
+/* label 'none' */
+#wrap-labels {
+  color: #bbb !important;
+}
+
+
+/* Admint should delete this issue */
+#customfield_10314-field {
+  color: red !important;
+  background: white !important;
+  border: 1px solid #B04A4A !important;
+  padding: 0 7px !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  border-radius: 5px !important;
+}
+
+/* Structure plugin */
+
+.structureBorder {
+  border-top: 1px solid #fff !important;
+}
+
+#structure .st-focused .tr.s-focused {
+  background: rgb(227,239,236) !important;
+  background: -moz-linear-gradient(top, rgba(227,239,236,1) 0%, rgba(187,231,223,1) 45%, rgba(191,236,228,1) 56%, rgba(197,247,234,1) 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(227,239,236,1)), color-stop(45%,rgba(187,231,223,1)), color-stop(56%,rgba(191,236,228,1)), color-stop(100%,rgba(197,247,234,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(227,239,236,1) 0%,rgba(187,231,223,1) 45%,rgba(191,236,228,1) 56%,rgba(197,247,234,1) 100%) !important;
+  background: -o-linear-gradient(top, rgba(227,239,236,1) 0%,rgba(187,231,223,1) 45%,rgba(191,236,228,1) 56%,rgba(197,247,234,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(227,239,236,1) 0%,rgba(187,231,223,1) 45%,rgba(191,236,228,1) 56%,rgba(197,247,234,1) 100%) !important;
+  background: linear-gradient(to bottom, rgba(227,239,236,1) 0%,rgba(187,231,223,1) 45%,rgba(191,236,228,1) 56%,rgba(197,247,234,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3efec', endColorstr='#c5f7ea',GradientType=0 ) !important;
+  border-top: 1px #AFF0DD solid !important;
+  border-bottom: 1px #B0E7D7 solid !important;
+}
+
+#issuetable tr.focused, .issue-table tr.focused {
+  background: #e1e7ed !important;
+  background: -moz-linear-gradient(top,  #e1e7ed 0%, #b9d9e5 45%, #bedce8 56%, #c1ddf2 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e1e7ed), color-stop(45%,#b9d9e5), color-stop(56%,#bedce8), color-stop(100%,#c1ddf2)) !important;
+  background: -webkit-linear-gradient(top,  #e1e7ed 0%,#b9d9e5 45%,#bedce8 56%,#c1ddf2 100%) !important;
+  background: -o-linear-gradient(top,  #e1e7ed 0%,#b9d9e5 45%,#bedce8 56%,#c1ddf2 100%) !important;
+  background: -ms-linear-gradient(top,  #e1e7ed 0%,#b9d9e5 45%,#bedce8 56%,#c1ddf2 100%) !important;
+  background: linear-gradient(to bottom,  #e1e7ed 0%,#b9d9e5 45%,#bedce8 56%,#c1ddf2 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1e7ed', endColorstr='#c1ddf2',GradientType=0 ) !important;
+  border-top: 1px #AFF0DD solid !important;
+  border-bottom: 1px #B0E7D7 solid !important;
+}
+
+#structure .st-focused .tr.s-focused .grad {
+  background: -moz-linear-gradient(left, rgba(234,241,253,0) 0%, rgba(206, 226, 251, 1) 100%) !important;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(234,241,253,0)), color-stop(100%,rgba(192, 234, 227, 1))) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00EAF1FD', endColorstr='#c5f7ea',GradientType=1 ) !important;
+  background: -ms-linear-gradient(left, rgba(234,241,253,0) 0%,rgba(192, 234, 227, 1) 100%) !important;
+  background: linear-gradient(left, rgba(234,241,253,0) 0%,rgba(192, 234, 227, 1) 100%) !important;
+}
+
+#structure .issueDescription, #structure .descriptionSeparator {
+  cursor: default !important;
+}
+
+#structure .st-splitter {
+  background-color: rgba(239, 239, 239, 1) !important;
+}
+
+
+#structure .st-splitter:hover {
+  background-color: rgba(225, 235, 239, 1) !important;
+}
+
+
+#structure .sechead {
+  border-bottom: 2px solid #EFEFEF !important;
+}
+
+#st-issue-details {
+  background-color: white !important;
+  border-top: 1px solid #fff !important;
+}
+
+.s-board-link a i, #structure .s-frlink a {
+  color: #3b73af;
+}
+
+#structure .foot {
+  border-top: 1px solid #DFE7E6 !important;
+}
+
+/* Hide not needed elements of structure */
+.s-info-link-a {
+  display: none !important;
+}
+
+/* White table header in issue detail view */
+#structure .tableHeader {
+  background: #fff;
+}
+
